@@ -1,0 +1,46 @@
+# --- Root / misc ---
+*.log
+.DS_Store
+Thumbs.db
+
+# --- gym-api (Laravel) ---
+gym-api/.env
+gym-api/.env.backup
+gym-api/.env.production
+gym-api/.phpactor.json
+gym-api/.phpunit.result.cache
+gym-api/.fleet
+gym-api/.idea
+gym-api/.nova
+gym-api/.phpunit.cache
+gym-api/.vscode
+gym-api/.zed
+gym-api/auth.json
+gym-api/node_modules
+gym-api/public/build
+gym-api/public/hot
+gym-api/public/storage
+gym-api/storage/*.key
+gym-api/storage/pail
+gym-api/vendor
+gym-api/Homestead.json
+gym-api/Homestead.yaml
+
+# --- gym-front (Vite/React) ---
+gym-front/node_modules
+gym-front/dist
+gym-front/dist-ssr
+gym-front/*.local
+gym-front/.env
+gym-front/.env.backup
+gym-front/.env.production
+
+# --- Editor directories and files ---
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
